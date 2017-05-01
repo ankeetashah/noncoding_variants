@@ -1,0 +1,12 @@
+Because the bam files are large, I am just including their accession numbers here and what they are linked as:
+
+ENCFF000SKV.bam --> GM12878_1.bam
+ENCFF000SKW.bam --> GM12878_2.bam
+ENCFF000SKZ.bam --> GM12878_3.bam
+ENCFF000SLB.bam --> GM12878_4.bam
+ENCFF000SLD.bam --> GM12878_5.bam
+
+the cleanbam.sh script was then run
+after, the bam files were convered to the bed files seen in this directory
+
+
