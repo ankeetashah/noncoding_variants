@@ -1,5 +1,7 @@
 Because the bam files are large, I am just including their accession numbers here and what they are linked as:
 
+(can get them by runnning this command, for example, wget https://www.encodeproject.org/files/ENCFF000SKV/@@download/ENCFF000SKV.bam)
+
 ENCFF000SKV.bam --> GM12878_1.bam
 ENCFF000SKW.bam --> GM12878_2.bam
 ENCFF000SKZ.bam --> GM12878_3.bam
