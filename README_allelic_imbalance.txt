@@ -98,7 +98,9 @@ PatternMatch -c TCACGTG -m 3 -b pool.control.snp138Common.09.strand.ref.21nt.fa 
 PatternMatch -c TCACGTG -m 3 -b pool.control.snp138Common.09.strand.alt.21nt.fa | awk '{if($2>=5 && $3<=16) {print $1}}' | sort | uniq -c | awk '{print $2"\t"$1}' > pool.control.snp138Common.09.strand.alt.21nt.TCACGTG.txt
 
 
-
+#further analysis was done in the allelic_imbalance_table.xlsx file
+wc -l *TGACTCA.txt files
+wc -l *TCACGTG.txt files
 
 
 
